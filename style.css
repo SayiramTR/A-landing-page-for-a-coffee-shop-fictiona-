@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.Navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.Hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url('images/coffee-background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.NavbarLogo a{
+    font-size: 40px;
+    color: #B17457;
+}
+.Navbar-links{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: auto;
+    margin-right: 25px;
+}
+.Navbar-links a{
+    color: #D8D2C2;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+.Navbar-links a:hover{
+    color: #B17457;
+}
+.LoginButton{
+    padding: 10px 20px;
+    background-color: #B17457;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.NavbarLogin .LoginButton:hover{
+    background-color: #D8D2C2;
+}
+.HeroContent{
+    text-align: center;
+    z-index: 1;
+}
+.HeroContent h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #B17457;
+}
+.HeroContent p{
+    font-size: 20px;
+    margin-bottom: 35px;
+    color: #D8D2C2;
+}
+.HeroButton{
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #B17457;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.HeroButton:hover{
+    background-color: #D8D2C2;
+}
